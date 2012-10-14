@@ -13,7 +13,7 @@ class Tumblrdl(SitemapSpider):
             self.sitemap_urls = [ "%s/sitemap.xml" % tumblr ]
             
         except NameError:
-            exit("Usage : $ scrapy crawl tumblr -a tumblr=http://securityreactions.tumblr.com path=/tmp/")
+            exit("Usage : $ scrapy crawl tumblr -a tumblr=http://securityreactions.tumblr.com path=/tmp/    ")
         
         
         if path != None:
@@ -45,12 +45,3 @@ class Tumblrdl(SitemapSpider):
         i['image_store_path'] = self.image_store_path
 
         return i
-
-    def get_path():
-        PAT=str(pat).split()[3][1:-9] # PATH extracted..
-        sig=None
-        try:
-            sig=os.remove(PAT + 'pat.pyc')# get_rid...
-        except OSError:
-            PAT=PAT +'/'
-            sig=os.remov
