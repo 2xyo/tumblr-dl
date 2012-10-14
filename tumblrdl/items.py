@@ -11,3 +11,4 @@ class TumblrItem(Item):
     image_url = Field()
     image = Field()
     image_name = Field()
+    image_store_path = Field()

@@ -15,3 +15,5 @@ USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
 ITEM_PIPELINES = ['tumblrdl.pipelines.MyImagesPipeline']
 
+AUTOTHROTTLE_ENABLED = True
+LOG_LEVEL = 'INFO'
