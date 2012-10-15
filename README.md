@@ -16,3 +16,5 @@ Usage :
 $ cd tumblr-dl
 $ scrapy crawl tumblr -a tumblr=http://securityreactions.tumblr.com path=/tmp/
 ```
+
+[![Build Status](https://secure.travis-ci.org/2xyo/tumblr-dl.png)](http://travis-ci.org/2xyo/tumblr-dl)
