@@ -9,4 +9,4 @@ install:
   - "pip install -r requirements.txt --use-mirrors"
 
 # command to run tests
-script: scrapy crawl tumblr -a tumblr=http://securityreactions.tumblr.com path=/tmp/
+script: scrapy crawl tumblr -a tumblr=http://securityreactions.tumblr.com  -a path=/tmp/
